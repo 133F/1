@@ -1,9 +1,0 @@
-
-fetch("https://www.youtube.com/api/stats/watchtime?ns=yt&el=detailpage&cpn=PTTB4-xRyhhLVxjx&ver=2&cmt=352.2&fmt=248&fs=0&rt=4356.822&euri&lact=3591245&cl=722885260&state=paused&volume=5&subscribed=1&cbr=Chrome&cbrver=133.0.0.0&c=WEB&cver=2.20250206.07.00-canary_control_2.20250210.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&final=1&hl=de_DE&cr=CH&uga=m44&len=628.021&feature=g-high-rec&afmt=251&idpj=-9&ldpj=-8&rti=508&st=352.2&et=352.2&muted=0&docid=oFbv5PZybY0&ei=qYirZ9L7O6-G6dsPsb_qqAU&plid=AAYt4SYUdEcdhbYi&referrer=https%3A%2F%2Fwww.youtube.com%2F&sdetail=p%3A%2F&sourceid=y&of=HzLLridsn1ArtASlijJbmQ&osid=AAAAAB7bxzQ%3AAOeUNAa55uY_LPOH-RlBGvi8L7FIzUa2kQ&vm=CAEQARgEOjJBSHFpSlRKZno0bm90NkZQZWpENWFUcFRpS1ZqMzFTSklIYmdFR0F3alFFcTA3Vm5ZZ2JYQUZVQTZSUm9Ra0d1LXB3NFFJYzVSZUFKbFRiZktlR202Ry1EdEpyU1FkeTNBQWZ0VTJ2XzdXYzFvcGR1VmFwdGtWWENLaHQ1OTRPQi1WMnN3c1Etd2FEVg", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify(ns=yt&el=detailpage&cpn=PTTB4-xRyhhLVxjx&ver=2&cmt=352.2&fmt=248&fs=0&rt=4356.822&euri&lact=3591245&cl=722885260&state=paused&volume=5&subscribed=1&cbr=Chrome&cbrver=133.0.0.0&c=WEB&cver=2.20250206.07.00-canary_control_2.20250210.02.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&final=1&hl=de_DE&cr=CH&uga=m44&len=628.021&feature=g-high-rec&afmt=251&idpj=-9&ldpj=-8&rti=508&st=352.2&et=352.2&muted=0&docid=oFbv5PZybY0&ei=qYirZ9L7O6-G6dsPsb_qqAU&plid=AAYt4SYUdEcdhbYi&referrer=https%3A%2F%2Fwww.youtube.com%2F&sdetail=p%3A%2F&sourceid=y&of=HzLLridsn1ArtASlijJbmQ&osid=AAAAAB7bxzQ%3AAOeUNAa55uY_LPOH-RlBGvi8L7FIzUa2kQ&vm=CAEQARgEOjJBSHFpSlRKZno0bm90NkZQZWpENWFUcFRpS1ZqMzFTSklIYmdFR0F3alFFcTA3Vm5ZZ2JYQUZVQTZSUm9Ra0d1LXB3NFFJYzVSZUFKbFRiZktlR202Ry1EdEpyU1FkeTNBQWZ0VTJ2XzdXYzFvcGR1VmFwdGtWWENLaHQ1OTRPQi1WMnN3c1Etd2FEVg)
-})
-.then(res => res.text())
-.then(data => console.log("Response:", data))
-.catch(err => console.error("Fetch error:", err));
